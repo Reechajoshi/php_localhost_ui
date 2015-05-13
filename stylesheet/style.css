@@ -1,0 +1,155 @@
+/** STYLE CSS **/
+
+/** COMMON STYLES **/
+a {
+	text-decoration: none;
+}
+
+body {
+	font-size: 14px;
+}
+
+pre {
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.clear {
+	clear: both;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+/** HOME PAGE **/
+#login_register_container {
+	padding: 10px 0px;	
+}
+
+#login_container, #register_container {
+	float:right;
+	margin: 0 10px;
+	padding: 5px 10px;
+	border: 1px solid black;
+}
+
+/** LOGIN FORM **/
+#login_wrapper, #register_wrapper { 
+	height: 100%;
+	display: table;
+	width: 100%;
+	display: none;
+}
+
+#login, #register {
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#login_box, #register_box {
+	width: 45%;
+	height: 135px; 
+	margin: 0 auto;
+	border: 1px solid black;
+	/* min-height: 115px; */
+}
+
+.login_field, .register_field {
+	display: inline-block;
+	margin: 0 10px;
+	min-width: 132px;
+}
+
+.login_field_container, .register_field_container {
+	margin: 10px 25px;
+}
+
+
+/** HOME PAGE **/
+#main_content {
+	margin: 10px 0;
+}
+
+.header_col {
+	display: inline-block;
+}
+
+.logout_container {
+	float:right;
+}
+
+#header {
+	margin: 10px 0;
+	border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+#username_lbl {
+	
+}
+
+#username_val {
+	font-weight:bold;
+	margin-left: 2px;
+}
+
+/** HOME PAGE **/
+#dir_list_header {
+	float:left;	
+}
+
+#dir_list_commands {
+	float: right;
+}
+
+#add_dir, #test_dir {
+	display: inline-block;
+}
+
+.dir_list_tbl_header, #dir_list_tbl_content, #file_table_content {
+	margin: 10px 0;
+}
+
+#file_table_content {
+	display: none;
+	border: 1px solid black;
+	padding: 5px 10px;
+	min-height: 80%;
+}
+
+#curr_path_container {
+	float:left;
+}
+
+#back_btn_container {
+	float: right;
+}
+
+.dir_list_tbl_header {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#dir_list_tbl_content, #file_table_content {
+	width: 80%;
+	display: table;
+	border-collapse: collapse;
+}
+
+.dir_list_tbl_row {
+	display: table-row;
+	border-bottom: 1px solid black;
+}
+
+.dir_list_tbl_head, .dir_list_tbl_cont {
+	display: table-cell;
+	padding: 5px 10px;
+	width: 200px;
+}
+
