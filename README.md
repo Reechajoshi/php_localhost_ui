@@ -8,7 +8,7 @@ Code structure contains
 -----------------------
 
 ```
-Helpers .
-Configs .
-Modular HEAD and MAIN CONTENT .
+Helpers 
+Configs 
+Modular HEAD and MAIN CONTENT 
 ```
